@@ -23,6 +23,7 @@ export function menu() {
 
     MENU.classList.add('menu')
     MENU.textContent = 'Menu'
+    MENU.style.backgroundColor = 'pink'
     NAV.append(MENU)
 
     ABOUT.classList.add('about')

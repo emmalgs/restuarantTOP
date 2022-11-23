@@ -30,6 +30,7 @@ export function contact() {
 
     CONTACT.classList.add('contact')
     CONTACT.textContent = 'Contact'
+    CONTACT.style.backgroundColor = 'pink'
     NAV.append(CONTACT)
 
     MAIN.setAttribute('id', 'main')

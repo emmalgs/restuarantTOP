@@ -23,6 +23,7 @@ export function about() {
 
     ABOUT.classList.add('about')
     ABOUT.textContent = 'About'
+    ABOUT.style.backgroundColor = 'pink'
     NAV.append(ABOUT)
 
     CONTACT.classList.add('contact')
