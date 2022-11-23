@@ -115,6 +115,36 @@ body {
     grid-area: 4 / 2 / 5 / 3;
 }
 
+.dinner-header {
+    padding: 8px;
+    text-align: center;
+    border: 2px solid black;
+    font-size: 3rem;
+    grid-area: 1 / 1 / 1 / span 6;
+    align-self: center;
+}
+
+.menu-item {
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding: 18px;
+    grid-area: 2 / 1 / 3 / 3;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-desc {
+    padding-top: 8px;
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    grid-area: 2 / 3 / 3 / 4;
+}
+
 @keyframes slide-left {
     from {
       -webkit-transform: translateX(100%);
