@@ -1,7 +1,9 @@
+//rebuild page except for header
+
 export function menu() {
+
     const CONTENT = document.querySelector('#content')
 
-    const HEADER = document.createElement('div')
     const SIDEBAR = document.createElement('div')
     const NAV = document.createElement('div')
     const MENU = document.createElement('div')
@@ -12,10 +14,6 @@ export function menu() {
     const menuItem = document.createElement('div')
     const price = document.createElement('div')
     const menuPic = document.createElement('img')
-
-    HEADER.classList.add('header')
-    HEADER.textContent = `BUCKY'S ONE-STOP`
-    CONTENT.appendChild(HEADER)
 
     SIDEBAR.classList.add('sidebar')
     CONTENT.append(SIDEBAR)

@@ -1,18 +1,22 @@
 import './style.css'
 import { pageload } from './functions/pageload.js'
-import './functions/render.js'
-// import { menu } from './pages/menu'
-// import { render } from './functions/render.js'
+import { render } from './functions/render'
+import { menu } from './pages/menu.js'
+import { firstload } from './functions/firstload.js'
+import './functions/pageload.js'
 
 
-function component() {
+    firstload()
+   
+    const home = document.querySelector('.header')
     const menuBtn = document.querySelector('.menu')
-    pageload()
-//  menuBtn.addEventListener('click', e => {
-//     e.preventDefault
-//     menu()
-//  })
- document.querySelector('.quote').textContent = 'THE HECK'
-}
 
-component()
+    home.addEventListener('click', () => {
+        render()
+        pageload();
+    })
+    menuBtn.addEventListener('click', () => {
+        render()
+        menu()
+    })
+  document.querySelector('.quote').textContent = 'HEWCKIN HECK'

@@ -1,7 +1,12 @@
 export function pageload() {
     const CONTENT = document.getElementById('content')
 
-    const HEADER = document.createElement('div')
+    // const HEADER = document.createElement('div')
+
+    // HEADER.classList.add('header')
+    // HEADER.textContent = `BUCKY'S ONE-STOP`
+    // CONTENT.appendChild(HEADER)
+
     const SIDEBAR = document.createElement('div')
     const NAV = document.createElement('div')
     const MENU = document.createElement('div')
@@ -14,11 +19,6 @@ export function pageload() {
     const IMG_2 = document.createElement('img')
     const IMG_3 = document.createElement('img')
     const IMG_4 = document.createElement('img')
-
-
-    HEADER.classList.add('header')
-    HEADER.textContent = `BUCKY'S ONE-STOP`
-    CONTENT.appendChild(HEADER)
 
     SIDEBAR.classList.add('sidebar')
     CONTENT.append(SIDEBAR)
