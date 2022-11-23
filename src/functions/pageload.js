@@ -1,5 +1,4 @@
-import { render } from "../functions/render"
-import { menu } from "../pages/menu"
+import { tabs } from "./tabs"
 
 export function pageload() {
     const CONTENT = document.getElementById('content')
@@ -63,9 +62,5 @@ export function pageload() {
     IMG_4.classList.add('img-4')
     MAIN.appendChild(IMG_4)
 
-    const menuBtn = document.querySelector('.menu')
-    menuBtn.addEventListener('click', () => {
-        render()
-        menu()
-    })
+    tabs()
 }
