@@ -1,11 +1,8 @@
+import { render } from "../functions/render"
+import { menu } from "../pages/menu"
+
 export function pageload() {
     const CONTENT = document.getElementById('content')
-
-    // const HEADER = document.createElement('div')
-
-    // HEADER.classList.add('header')
-    // HEADER.textContent = `BUCKY'S ONE-STOP`
-    // CONTENT.appendChild(HEADER)
 
     const SIDEBAR = document.createElement('div')
     const NAV = document.createElement('div')
@@ -65,4 +62,10 @@ export function pageload() {
     IMG_4.src = '../src/meal.jpeg'
     IMG_4.classList.add('img-4')
     MAIN.appendChild(IMG_4)
+
+    const menuBtn = document.querySelector('.menu')
+    menuBtn.addEventListener('click', () => {
+        render()
+        menu()
+    })
 }
