@@ -1,5 +1,3 @@
-
-
 export function pageload() {
     const CONTENT = document.getElementById('content')
 
