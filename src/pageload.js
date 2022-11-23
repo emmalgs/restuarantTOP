@@ -10,9 +10,9 @@ export function pageload() {
     const CONTACT = document.createElement('div')
     const MAIN = document.createElement('div')
     const QUOTE = document.createElement('div')
-    const IMG_1 = document.createElement('img')
-    const IMG_2 = document.createElement('img')
-    const IMG_3 = document.createElement('img')
+    // const IMG_1 = document.createElement('img')
+    // const IMG_2 = document.createElement('img')
+    // const IMG_3 = document.createElement('img')
 
     HEADER.classList.add('header')
     CONTENT.appendChild(HEADER)
@@ -35,12 +35,12 @@ export function pageload() {
     QUOTE.classList.add('quote')
     MAIN.append(QUOTE)
 
-    IMG_1.src = '../src/squash.jpeg'
-    MAIN.appendChild(IMG_1)
+    // IMG_1.src = '../src/squash.jpeg'
+    // MAIN.appendChild(IMG_1)
 
-    IMG_2.src = '../src/meatballs.jpeg'
-    MAIN.appendChild(IMG_2)
+    // IMG_2.src = '../src/meatballs.jpeg'
+    // MAIN.appendChild(IMG_2)
 
-    IMG_3.src = '../src/beans.jpeg'
-    MAIN.appendChild(IMG_3)
+    // IMG_3.src = '../src/beans.jpeg'
+    // MAIN.appendChild(IMG_3)
 }
