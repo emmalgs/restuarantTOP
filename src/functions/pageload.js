@@ -17,6 +17,12 @@ export function pageload() {
     const IMG_4 = document.createElement('img')
 
     SIDEBAR.classList.add('sidebar')
+    SIDEBAR.textContent = `B
+    U
+    C
+    K
+    Y
+    S`
     CONTENT.append(SIDEBAR)
 
     NAV.classList.add('nav')

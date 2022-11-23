@@ -27,9 +27,11 @@ body {
 
 .sidebar {
     grid-area: 1 / 1 / 5 / 2;
-    /* width: max(10%, 10vh); */
     border-right: 2px solid black;
-    padding: 8px;
+    padding: 30px;
+
+    font-size: 9rem;
+    height: 100vh
 }
 
 .nav {
