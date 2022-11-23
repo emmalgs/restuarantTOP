@@ -36,5 +36,10 @@ export function contact() {
     MAIN.setAttribute('id', 'main')
     CONTENT.append(MAIN)
 
+    const contactInfo = document.createElement('div')
+    contactInfo.classList.add('contact-info')
+    contactInfo.textContent = 'Call us at: (555) 123-4567'
+    MAIN.append(contactInfo)
+
     tabs()
 }

@@ -52,19 +52,19 @@ export function pageload() {
     MAIN.append(QUOTE_2)
 
 
-    IMG_1.src = "../src/squash.jpeg"
+    IMG_1.src = "../src/images/squash.jpeg"
     IMG_1.classList.add('img-1')
     MAIN.appendChild(IMG_1)
 
-    IMG_2.src = '../src/beans.jpeg'
+    IMG_2.src = '../src/images/beans.jpeg'
     IMG_2.classList.add('img-2')
     MAIN.appendChild(IMG_2)
 
-    IMG_3.src = '../src/meatballs.jpeg'
+    IMG_3.src = '../src/images/meatballs.jpeg'
     IMG_3.classList.add('img-3')
     MAIN.appendChild(IMG_3)
 
-    IMG_4.src = '../src/meal.jpeg'
+    IMG_4.src = '../src/images/meal.jpeg'
     IMG_4.classList.add('img-4')
     MAIN.appendChild(IMG_4)
 
