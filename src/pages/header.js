@@ -1,6 +1,4 @@
 export function header() {
-    const CONTENT = document.getElementById('content')
-
     const HEADER = document.createElement('div')
     const SIDEBAR = document.createElement('div')
     const NAV = document.createElement('div')

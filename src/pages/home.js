@@ -5,8 +5,6 @@ import squashImage from '../src/images/squash.jpeg'
 import tamalesImage from '../src/images/tamales.jpeg'
 
 export function home() {
-    const CONTENT = document.getElementById('content')
-
     const MAIN = document.createElement('div')
     const QUOTE = document.createElement('div')
     const QUOTE_2 = document.createElement('div')
@@ -14,9 +12,6 @@ export function home() {
     const IMG_2 = document.createElement('img')
     const IMG_3 = document.createElement('img')
     const IMG_4 = document.createElement('img')
-
-
-    
 
     MAIN.setAttribute('id', 'main')
     CONTENT.append(MAIN)
