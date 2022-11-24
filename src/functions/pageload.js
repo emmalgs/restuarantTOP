@@ -1,4 +1,8 @@
 import { tabs } from "./tabs"
+import meal from '../../src/images/meal.jpeg'
+import beans from "../images/beans.jpeg"
+import squash from "../images/squash.jpeg"
+import meatballs from "../images/meatballs.jpeg"
 
 export function pageload() {
     const CONTENT = document.getElementById('content')
@@ -52,19 +56,19 @@ export function pageload() {
     MAIN.append(QUOTE_2)
 
 
-    IMG_1.src = "../src/images/squash.jpeg"
+    IMG_1.src = squash
     IMG_1.classList.add('img-1')
     MAIN.appendChild(IMG_1)
 
-    IMG_2.src = '../src/images/beans.jpeg'
+    IMG_2.src = beans
     IMG_2.classList.add('img-2')
     MAIN.appendChild(IMG_2)
 
-    IMG_3.src = '../src/images/meatballs.jpeg'
+    IMG_3.src = meatballs
     IMG_3.classList.add('img-3')
     MAIN.appendChild(IMG_3)
 
-    IMG_4.src = '../src/images/meal.jpeg'
+    IMG_4.src = meal
     IMG_4.classList.add('img-4')
     MAIN.appendChild(IMG_4)
 
