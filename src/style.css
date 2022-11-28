@@ -161,6 +161,11 @@ body {
     animation: slide-left 12s linear infinite;  
 }
 
+#map {
+    height: 200px;
+    width: 20%;
+}
+
 @keyframes slide-left {
     from {
       -webkit-transform: translateX(100%);

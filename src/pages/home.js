@@ -1,8 +1,5 @@
 import { tabs } from "../functions/tabs"
-import meal from '../images/meal.png'
-import beans from '../images/beans.png'
-import squash from "../images/squash.png"
-// import meatballs from "../images/meatballs.png"
+
 
 export function home() {
     const CONTENT = document.getElementById('content')
@@ -26,19 +23,19 @@ export function home() {
     MAIN.append(QUOTE_2)
 
 
-    IMG_1.src = squash
+    IMG_1.src = "../src/images/squash.png"
     IMG_1.classList.add('img-1')
     MAIN.appendChild(IMG_1)
 
-    IMG_2.src = beans
+    IMG_2.src = "../src/images/beans.png"
     IMG_2.classList.add('img-2')
     MAIN.appendChild(IMG_2)
 
-    IMG_3.src = "./src/images/meatballs.png"
+    IMG_3.src = "../src/images/meatballs.png"
     IMG_3.classList.add('img-3')
     MAIN.appendChild(IMG_3)
 
-    IMG_4.src = meal
+    IMG_4.src = "../src/images/meal.png"
     IMG_4.classList.add('img-4')
     MAIN.appendChild(IMG_4)
 
