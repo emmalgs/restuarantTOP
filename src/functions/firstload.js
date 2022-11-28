@@ -1,4 +1,4 @@
-import { home } from "./home";
+import { home } from "../pages/home";
 import { pageload } from "./pageload";
 
 export function firstload() {

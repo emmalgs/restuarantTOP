@@ -3,18 +3,18 @@ import { pageload } from "./pageload"
 import { menu } from "../pages/menu"
 import { about } from "../pages/about"
 import { contact } from "../pages/contact"
-import { header } from "../pages/header"
+import { home } from "../pages/home"
 
 export function tabs() {
-    const home = document.querySelector('.header')
+    const homeBtn = document.querySelector('.header')
     const menuBtn = document.querySelector('.menu')
     const aboutBtn = document.querySelector('.about')
     const contactBtn = document.querySelector('.contact')
 
-    home.addEventListener('click', () => {
+    homeBtn.addEventListener('click', () => {
         render()
         pageload();
-        home();
+        home()
     })
     menuBtn.addEventListener('click', () => {
         render();

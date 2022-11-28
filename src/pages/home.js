@@ -1,4 +1,4 @@
-import { tabs } from "./tabs"
+import { tabs } from "../functions/tabs"
 import meal from '../images/meal.png'
 import beans from '../images/beans.png'
 import squash from "../images/squash.png"
