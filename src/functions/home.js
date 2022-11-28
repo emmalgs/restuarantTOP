@@ -1,8 +1,8 @@
 import { tabs } from "./tabs"
-// import meal from './src/images/meal.jpeg'
-// import beans from "./src/images/beans.jpeg"
-// import squash from "./src/images/squash.jpeg"
-// import meatballs from "./src/images/meatballs.jpeg"
+import meal from '../images/meal.png'
+import beans from '../images/beans.png'
+import squash from "../images/squash.png"
+import meatballs from "../images/meatballs.png"
 
 export function home() {
     const CONTENT = document.getElementById('content')
