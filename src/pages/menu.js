@@ -6,7 +6,9 @@ export function menu() {
 
     const CONTENT = document.querySelector('#content')
 
-
+    const menuBtn = document.querySelector('.menu')
+    menuBtn.style.borderBottom = 'none'
+    
     const MAIN = document.createElement('div')
     const DINNER = document.createElement('div')
 

@@ -19,7 +19,8 @@ export function tabs() {
     menuBtn.addEventListener('click', () => {
         render();
         pageload();
-        menu()
+        menu();
+
     })
     aboutBtn.addEventListener('click', () => {
         render();

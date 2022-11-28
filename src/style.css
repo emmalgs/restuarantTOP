@@ -161,9 +161,33 @@ body {
     animation: slide-left 12s linear infinite;  
 }
 
-#map {
-    height: 200px;
-    width: 20%;
+.map {
+    padding-top: 20px;
+    grid-area: 1 / 2 / 4 / 4;
+}
+
+/* About Tab */
+
+.about-heading {
+    padding: 8px;
+    text-align: center;
+    border: 2px solid black;
+    font-size: 3rem;
+    grid-area: 1 / 2 / 1 / span 4;
+    align-self: center;
+}
+
+.chef-img {
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+.info {
+    grid-area: 2 / 3 / 3 / span 3;
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding: 18px;
+    justify-content: center;
+    align-items: center;
 }
 
 @keyframes slide-left {

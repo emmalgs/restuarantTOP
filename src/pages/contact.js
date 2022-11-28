@@ -5,6 +5,9 @@ export function contact() {
     const CONTENT = document.querySelector('#content')
     const MAIN = document.createElement('div')
 
+    const contactBtn = document.querySelector('.contact')
+    contactBtn.style.borderBottom = 'none'
+
     MAIN.setAttribute('id', 'main')
     CONTENT.append(MAIN)
 
@@ -17,6 +20,10 @@ export function contact() {
     GIF.src = "../src/images/1qZT.gif"
     contactInfo.append(GIF)
     
+    const MAP = document.createElement('img')
+    MAP.classList.add('map')
+    MAP.src = "../src/images/map.jpeg"
+    MAIN.append(MAP)
 
     tabs()
 }
