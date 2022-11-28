@@ -1,5 +1,4 @@
 import { tabs } from "../functions/tabs"
-import gp from "../images/1qZT.gif"
 
 export function contact() {
 
@@ -15,8 +14,9 @@ export function contact() {
     MAIN.append(contactInfo)
 
     const GIF = document.createElement('img')
-    GIF.src = gp
+    GIF.src = "../src/images/1qZT.gif"
     contactInfo.append(GIF)
+    
 
     tabs()
 }
