@@ -2,7 +2,7 @@ import { tabs } from "../functions/tabs"
 import meal from '../images/meal.png'
 import beans from '../images/beans.png'
 import squash from "../images/squash.png"
-import meatballs from "../images/meatballs.png"
+// import meatballs from "../images/meatballs.png"
 
 export function home() {
     const CONTENT = document.getElementById('content')
@@ -34,7 +34,7 @@ export function home() {
     IMG_2.classList.add('img-2')
     MAIN.appendChild(IMG_2)
 
-    IMG_3.src = meatballs
+    IMG_3.src = "./src/images/meatballs.png"
     IMG_3.classList.add('img-3')
     MAIN.appendChild(IMG_3)
 
