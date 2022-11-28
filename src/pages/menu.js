@@ -6,43 +6,43 @@ export function menu() {
 
     const CONTENT = document.querySelector('#content')
 
-    const SIDEBAR = document.createElement('div')
-    const NAV = document.createElement('div')
-    const MENU = document.createElement('div')
-    const ABOUT = document.createElement('div')
-    const CONTACT = document.createElement('div')
+    // const SIDEBAR = document.createElement('div')
+    // const NAV = document.createElement('div')
+    // const MENU = document.createElement('div')
+    // const ABOUT = document.createElement('div')
+    // const CONTACT = document.createElement('div')
 
     
-    const menuPic = document.createElement('img')
+    // const menuPic = document.createElement('img')
 
-    SIDEBAR.classList.add('sidebar')
-    CONTENT.append(SIDEBAR)
+    // SIDEBAR.classList.add('sidebar')
+    // CONTENT.append(SIDEBAR)
 
-    NAV.classList.add('nav')
-    CONTENT.appendChild(NAV)
+    // NAV.classList.add('nav')
+    // CONTENT.appendChild(NAV)
 
-    MENU.classList.add('menu')
-    MENU.textContent = 'Menu'
-    MENU.style.backgroundColor = 'pink'
-    NAV.append(MENU)
+    // // MENU.classList.add('menu')
+    // // MENU.textContent = 'Menu'
+    // // MENU.style.backgroundColor = 'pink'
+    // // NAV.append(MENU)
 
-    ABOUT.classList.add('about')
-    ABOUT.textContent = 'About'
-    NAV.append(ABOUT)
+    // ABOUT.classList.add('about')
+    // ABOUT.textContent = 'About'
+    // NAV.append(ABOUT)
 
-    CONTACT.classList.add('contact')
-    CONTACT.textContent = 'Contact'
-    NAV.append(CONTACT)
+    // CONTACT.classList.add('contact')
+    // CONTACT.textContent = 'Contact'
+    // NAV.append(CONTACT)
 
-    const MAIN = document.createElement('div')
-    const DINNER = document.createElement('div')
+    // const MAIN = document.createElement('div')
+    // const DINNER = document.createElement('div')
 
-    MAIN.setAttribute('id', 'main')
-    CONTENT.append(MAIN)
+    // MAIN.setAttribute('id', 'main')
+    // CONTENT.append(MAIN)
 
-    DINNER.classList.add('dinner-header')
-    DINNER.textContent = 'DINNER'
-    MAIN.append(DINNER)
+    // DINNER.classList.add('dinner-header')
+    // DINNER.textContent = 'DINNER'
+    // MAIN.append(DINNER)
     
     //menu items
 

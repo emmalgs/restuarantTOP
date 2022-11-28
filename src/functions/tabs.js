@@ -13,7 +13,7 @@ export function tabs() {
 
     home.addEventListener('click', () => {
         render()
-        pageload();
+        home();
     })
     menuBtn.addEventListener('click', () => {
         render()

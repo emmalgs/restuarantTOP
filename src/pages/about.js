@@ -4,31 +4,31 @@ export function about() {
 
     const CONTENT = document.querySelector('#content')
 
-    const SIDEBAR = document.createElement('div')
-    const NAV = document.createElement('div')
-    const MENU = document.createElement('div')
-    const ABOUT = document.createElement('div')
-    const CONTACT = document.createElement('div')
+    // const SIDEBAR = document.createElement('div')
+    // const NAV = document.createElement('div')
+    // const MENU = document.createElement('div')
+    // const ABOUT = document.createElement('div')
+    // const CONTACT = document.createElement('div')
     const MAIN = document.createElement('div')
 
-    SIDEBAR.classList.add('sidebar')
-    CONTENT.append(SIDEBAR)
+    // SIDEBAR.classList.add('sidebar')
+    // CONTENT.append(SIDEBAR)
 
-    NAV.classList.add('nav')
-    CONTENT.appendChild(NAV)
+    // NAV.classList.add('nav')
+    // CONTENT.appendChild(NAV)
 
-    MENU.classList.add('menu')
-    MENU.textContent = 'Menu'
-    NAV.append(MENU)
+    // MENU.classList.add('menu')
+    // MENU.textContent = 'Menu'
+    // NAV.append(MENU)
 
-    ABOUT.classList.add('about')
-    ABOUT.textContent = 'About'
-    ABOUT.style.backgroundColor = 'pink'
-    NAV.append(ABOUT)
+    // ABOUT.classList.add('about')
+    // ABOUT.textContent = 'About'
+    // ABOUT.style.backgroundColor = 'pink'
+    // NAV.append(ABOUT)
 
-    CONTACT.classList.add('contact')
-    CONTACT.textContent = 'Contact'
-    NAV.append(CONTACT)
+    // CONTACT.classList.add('contact')
+    // CONTACT.textContent = 'Contact'
+    // NAV.append(CONTACT)
 
     MAIN.setAttribute('id', 'main')
     CONTENT.append(MAIN)

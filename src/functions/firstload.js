@@ -1,7 +1,8 @@
 import { header } from "../pages/header";
+import { home } from "./home";
 import { pageload } from "./pageload";
 
 export function firstload() {
-    header()
     pageload()
+    home()
 }
