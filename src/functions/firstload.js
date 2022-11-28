@@ -1,4 +1,3 @@
-import { header } from "../pages/header";
 import { home } from "./home";
 import { pageload } from "./pageload";
 

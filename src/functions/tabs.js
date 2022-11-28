@@ -13,19 +13,23 @@ export function tabs() {
 
     home.addEventListener('click', () => {
         render()
+        pageload();
         home();
     })
     menuBtn.addEventListener('click', () => {
-        render()
+        render();
+        pageload();
         menu()
     })
     aboutBtn.addEventListener('click', () => {
-        render()
+        render();
+        pageload();
         about()
     })
 
     contactBtn.addEventListener('click', () => {
         render()
+        pageload()
         contact()
     })
 }
