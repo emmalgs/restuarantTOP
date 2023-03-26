@@ -1,9 +1,9 @@
 import { render } from "./render"
 import { pageload } from "./pageload"
-import { menu } from "../pages/menu"
-import { about } from "../pages/about"
-import { contact } from "../pages/contact"
-import { home } from "../pages/home"
+import { menu } from "./pages/menu"
+import { about } from "./pages/about"
+import { contact } from "./pages/contact"
+import { home } from "./pages/home"
 
 export function tabs() {
     const homeBtn = document.querySelector('.header')
